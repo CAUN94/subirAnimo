@@ -33,3 +33,20 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
+/* Diseño para dispositivos móviles */
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+
+    .pista {
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
